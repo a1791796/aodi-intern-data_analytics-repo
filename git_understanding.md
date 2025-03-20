@@ -4,11 +4,15 @@ When there are two files with the same name trying to merge.
 How did you resolve it?
 resolve by using the github desktop. It allows me to modify the conflict,
 from this 
-"<<<<<<< branch-test
+
+
+<<<<<<< branch-test
 hello
 =======
 hi
->>>>>>> main"
+>>>>>>> main
+
+
 then only keep the words you want, delete all other things, includes syntax.
 
 What did you learn?
