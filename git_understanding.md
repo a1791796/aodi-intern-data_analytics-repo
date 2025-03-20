@@ -8,7 +8,9 @@ from this
 
 <<<<<<< branch-test
 hello
-=======
+
+=========
+
 hi
 >>>>>>> main
 
