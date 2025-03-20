@@ -12,7 +12,8 @@ hello
 =========
 
 hi
->>>>>>> main
+
+->>->>->> main
 
 
 then only keep the words you want, delete all other things, includes syntax.
