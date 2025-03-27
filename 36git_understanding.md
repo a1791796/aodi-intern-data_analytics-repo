@@ -1,4 +1,6 @@
 What does each command do?
+git checkout main -- <file>
+This will replace your local file with the version from main, all other files in your branch stay the same
 
 git cherry-pick <commit>:
 lets you take an individual commit from one branch and apply it to another branch.
