@@ -1,0 +1,5 @@
+{
+  "default": true,
+  "MD013": false,  // Ignore line length limit
+  "MD033": false   // Allow inline HTML
+}
