@@ -1,0 +1,32 @@
+name: Markdown Lint and Spell Check
+
+on:
+  pull_request:
+    branches:
+      - main  # Runs on PRs targeting the main branch
+
+jobs:
+  lint-and-spellcheck:
+    name: Lint Markdown and Check Spelling
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install Markdown Linter
+        run: npm install -g markdownlint-cli
+
+      - name: Run Markdown Linter
+        run: markdownlint '**/*.md' --config .markdownlint.json
+
+      - name: Install Spell Checker
+        run: npm install -g cspell
+
+      - name: Run Spell Checker
+        run: cspell "**/*.md"
