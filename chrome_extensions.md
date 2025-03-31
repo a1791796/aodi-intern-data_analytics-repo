@@ -1,4 +1,8 @@
+Which extensions did you install? Why?
+
 I installed React Developer Tools, Redux DevTools , A JSON Viewer and Lighthouse. 
+
+What was the most useful thing you learned?
 
 I ran through these 4 extension but haven't used it. I can write down what I learn from them
 React Developer Tools: used for inspecting and debugging React applications in the browser.
