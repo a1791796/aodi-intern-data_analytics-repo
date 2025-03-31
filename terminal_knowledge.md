@@ -1,6 +1,12 @@
+Which terminal client did you choose? Why?
+
 I choose zsh + iterm2 because I am using Mac and its default terminal, which is based on zsh so I am pretty familiar with zsh.
 
+What customizations (if any) did you make?
+
 I don't make any customizations because the default one looks good to me
+
+What was the most useful command you learned today?
 
 It's more like a review for me:
 pwd: Print the current working directory.
